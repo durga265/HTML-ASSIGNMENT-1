@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Feedback form -->
+
+    <fieldset>
+        <legend><h2>Feedback Form</h2></legend><br>
+    <form action="">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name " id="name" placeholder="enter your Name" minlength="3" maxlength="30" required /><br><br>
+    
+        <label for="portfolio">Portfolio:</label><br>
+        <input type="url" name="portfolio" id="portfolio" placeholder="https://portiofoilo.com" required /><br><br>
+
+        <label for="favoritecolor">Favorite Color:</label><br>
+        <input type="color" name="favoritecolor" id="favcolor" required><br><br>
+
+        <label for="likeness">Likeness:</label><br>
+        <input type="range" name="likeness" id="likeness" min="1" mx="100" required/><br><br>
+
+        <input type="submit" style="background-color: rgb(141, 189, 241);">
+        <input type="reset" style="background-color: rgb(141, 189, 241);">
+    </form><br><br><br>
+</fieldset>
+
+   <!-- signup form -->
+    
+        <fieldset>
+        <legend><h2>Sign Up</h2></legend>
+        <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" name="Name" id="name" placeholder="enter your name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" name="Email" id="email" placeholder="enter your emailid" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" id="gender_m" value="Male" reqired>Male
+            <input type="radio" name="gender" id="gender_f" value="Female" required>Female
+            <input type="radio" name="gender" id="gender_o" value="Others" required>Others<br><br>
+
+            <label for="carbrand">Car Brands:</label><br>
+            <select name="carbrand" id="cars">
+                <option value=" ">please choose an option</option>
+                <option value="lamborghini">lamborghini</option>
+                <option value="AMG">AMG</option>
+                <option value="Honada">Honada</option>
+                <option value="Tata Punch">oTata Punch</option>
+                <option value="Maruti Brezza">Maruti Brezza</option>
+                <option value="Audi">Audi</option>
+                <option value="Rolls Royce">Rolls Royce</option>
+            </select><br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age" required placeholder="enter your Age"><br><br>
+
+            <label for="dob">DOB:</label><br>
+            <input type="Date" name="dob" id="dob" required><br><br>
+
+            <label for="phonenumber">Phone Number:</label><br>
+            <input type="tel" name="phoneNumber" id="tel" placeholder="XXX-XXX-XXXX"/><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" placeholder="enter your Password"><br><br>
+
+            <label for="agree">I agree to the T&C:</label>
+            <input type="checkbox" name="agree" id="tc" required><br><br>
+
+            <button type="submit" style="background-color: rgb(141, 189, 241);">Submit</button>
+            <button type="Reset" style="background-color: rgb(141,189,241);">Reset</button>
+
+        </form>
+    </fieldset>
+    
+</body>
+</html>
